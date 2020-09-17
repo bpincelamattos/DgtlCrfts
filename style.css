@@ -1,0 +1,127 @@
+ body {          /* take out the borders around the page  */
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top{
+    background-image: url(img/atl.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1519px 450px;
+    color: white;
+}
+
+.top-nav {
+    float: right;
+    margin-right: 30px;
+    position: absolute;
+    top: 32px;
+    right: 350px;
+}
+
+.top-nav ul li, .footer ul li {
+    display: inline;
+    padding: 20px 30px;
+ }
+
+ul.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.font{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.font-size {
+  font-size: 20px;
+}
+
+.page-title, .down-arrow{
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+ 
+}
+
+.logo{
+  margin: auto;
+  height: 50px; 
+  width: 100px;
+  padding: 0px;
+
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+.page-subtitle {
+  margin: auto;
+  width: 20%;
+  text-align: center;
+}
+
+.down-arrow {
+  text-align: center;
+  padding-top: 85px;
+}
+
+
+.bottom-top{
+    padding-top: 150px;
+}
+
+.middle{
+  background-color: #D0D3D4 ;
+}
+
+.middle-title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.users, .hashtags, .moolah{
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  display: inline-block;
+  padding: 30px;
+}
+
+.icons, .footer-nav{
+  text-align: center;
+}
+
+a{
+    color:white;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  .footer-nav ul, .footer-copyright{
+    background-color: #626567;
+    padding: 30px;
+  }
+
